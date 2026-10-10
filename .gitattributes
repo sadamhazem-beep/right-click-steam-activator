@@ -1,0 +1,11 @@
+# Project-specific overrides 
+# Text file normalization
+*.py linguist-detectable
+*.yaml linguist-detectable=false
+**/*.py linguist-detectable
+
+*.min.js linguist-generated
+
+static/* linguist-vendored
+static/**/*.html linguist-vendored
+dist/* linguist-vendored
